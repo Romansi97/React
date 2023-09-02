@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  padding: 0px 10px;
+}
+html,
+body {
+  font-size: 18px;
+  background-color: #f5f6f7;
+}
+
+h1 {
+  max-width: 940px;
+  font-size: 2.5em;
+  font-family: sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 40px 0;
+}
+/* min-height -> tamaño minimo para que se adapte a la pantalla*/
+/*
+.App {
+  min-height: 0vh;
+  display: flex;
+  flex-wrap: center;
+  justify-content: center;
+}*/
+
+/*min-height: 600px; /*altura minima para que el contenedor se adapte a la cantidad de espacio de la página*/
+.contenedor-principal {
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
