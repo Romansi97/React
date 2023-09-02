@@ -1,6 +1,6 @@
 * {
   margin: 0px;
-  padding: 0px 10px;
+  padding: 0px;
 }
 html,
 body {
@@ -17,13 +17,6 @@ h1 {
   margin: 40px 0;
 }
 /* min-height -> tamaño minimo para que se adapte a la pantalla*/
-/*
-.App {
-  min-height: 0vh;
-  display: flex;
-  flex-wrap: center;
-  justify-content: center;
-}*/
 
 /*min-height: 600px; /*altura minima para que el contenedor se adapte a la cantidad de espacio de la página*/
 .contenedor-principal {
