@@ -15,15 +15,27 @@ body {
   align-items: center;
   justify-content: center;
   padding-top: 15px;
-  font-family: sans-serif;
+  font-family: Lato, sans-serif;
 }
-.logo-contenedor {
+
+.freecodecamp-logo-contenedor {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 20px;
 }
-.imagen-logo {
+
+.freecodecamp-logo {
   height: 50px;
+}
+
+.contenedor-principal {
+  height: 550px;
+  min-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }

@@ -1,13 +1,14 @@
 import React from "react";
+import "../hojas-de-estilo/Boton.css";
 
-function Boton(texto, esBotonDeClic, manejarclic) {
+function Boton({ texto, esBotonDeClic, manejarClic }) {
   return (
-    <Boton
+    <button
       className={esBotonDeClic ? "boton-clic" : "boton-reiniciar"}
-      onClick={manejarclic}
+      onClick={manejarClic}
     >
       {texto}
-    </Boton>
+    </button>
   );
 }
 
