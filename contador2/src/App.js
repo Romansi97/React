@@ -4,7 +4,7 @@ import React from "react";
 
 function App() {
   const esClic = () => {
-    onclick(0);
+    console.log("clic");
   };
 
   return (
@@ -18,7 +18,7 @@ function App() {
       </div>
       <div className="contenedor">
         <div className="estiloBoton">
-          <Boton />
+          <Boton texto="Clic" esBoton={true} clickeado={esClic} />
         </div>
       </div>
     </div>
