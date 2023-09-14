@@ -1,5 +1,5 @@
 import React from "react";
-import Boton from "../estilo/Boton.css";
+/*import Boton from "../estilo/Boton.css";*/
 
 function Boton({ texto, esBoton, clickeado }) {
   return (
