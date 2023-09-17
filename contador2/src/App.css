@@ -23,6 +23,7 @@
   border-width: 5px;
   border-style: solid;
   border-color: black;
+  border-radius: 15px;
   background: #82848cff;
 }
 .titulo {
@@ -32,14 +33,3 @@
   font-size: larger;
   text-shadow: 2px 2px 4px black;
 }
-/*
-.contenedor {
-  height: 550px;
-  min-width: 600px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-*/

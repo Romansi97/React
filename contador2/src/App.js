@@ -16,7 +16,7 @@ function App() {
       <div className="contenedorTitulo">
         <div className="titulo">
           <h1>
-            <strong>CONTADOR DE CLICS</strong>
+            <strong>Contador de Clics</strong>
           </h1>
         </div>
       </div>

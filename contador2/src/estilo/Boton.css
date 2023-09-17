@@ -5,14 +5,15 @@ button {
   font-family: Roboto, sans-serif;
   font-weight: bold;
   color: white;
-  border: 2px solid white;
+  border: 5px solid black;
   border-radius: 15px;
   margin: 5px;
   cursor: pointer;
+  text-shadow: 2px 2px 4px black;
 }
 
 button:hover {
-  background-color: #00471b;
+  background-color: rebeccapurple;
 }
 
 .boton-sumar {
@@ -20,5 +21,5 @@ button:hover {
 }
 
 .boton-reiniciar {
-  background-color: #5a01a7;
+  background-color: green;
 }
