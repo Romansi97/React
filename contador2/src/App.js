@@ -7,10 +7,14 @@ function App() {
     console.log("clic");
   };
 
+  const esReinicio = () => {
+    console.log("Reinicia");
+  };
+
   return (
     <div className="App">
       <div className="contenedorTitulo">
-        <div className="Titulo">
+        <div className="titulo">
           <h1>
             <strong>CONTADOR DE CLICS</strong>
           </h1>
@@ -19,6 +23,7 @@ function App() {
       <div className="contenedor">
         <div className="estiloBoton">
           <Boton texto="Clic" esBoton={true} clickeado={esClic} />
+          <Boton texto="Reinicio" esBoton={false} clickeado={esReinicio} />
         </div>
       </div>
     </div>
