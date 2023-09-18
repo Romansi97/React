@@ -9,14 +9,15 @@
   height: 100vh;
   color: white;
   padding: 10px;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .contenedorTitulo {
-  display: flex;
-  height: 40px;
-  width: 500px;
+  margin: 10px;
+  min-height: 40px;
+  min-width: 300px;
   align-items: center;
   justify-content: center;
   padding: 15px;
@@ -25,6 +26,9 @@
   border-color: black;
   border-radius: 15px;
   background: #82848cff;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 .titulo {
   width: fit-content;
@@ -32,4 +36,13 @@
   font-family: sans-serif;
   font-size: larger;
   text-shadow: 2px 2px 4px black;
+}
+.contenedor {
+  height: 550px;
+  min-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
